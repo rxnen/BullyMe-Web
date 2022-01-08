@@ -12,6 +12,10 @@
       {
       "source": "/",
       "destination": "/index.html"
+      },
+      {
+      "source": "/commands",
+      "destination": "/commands.html"
       }
     ]
   }
