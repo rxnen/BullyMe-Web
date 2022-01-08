@@ -9,8 +9,8 @@
     ],
     "rewrites": [
       {
-      "source": "/index.html",
-      "destination": "/"
+      "source": "/",
+      "destination": "/index.html"
       }
     ]
   }
