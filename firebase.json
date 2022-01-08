@@ -2,6 +2,7 @@
   "hosting": {
     "site": "bullymebot",
     "public": "public",
+    "cleanUrls": true,
     "ignore": [
       "firebase.json",
       "**/.*",
