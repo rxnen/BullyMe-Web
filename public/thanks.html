@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/BullyMe_logo.png">
+    <title>BullyMe - A Discord Bot</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="confetti.css">
+</head>
+
+<body>
+    <header>
+        <a class="logolink" href="/">
+            <img class="logo" src="images/BullyMe_logo.png" width="60" height="60" alt="Logo">
+        </a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="/commands">Commands</a></li>
+                <li><a href="/vote">Vote</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="https://discord.com/oauth2/authorize?client_id=926262398854250526&permissions=2147765312&response_type=code&scope=bot%20applications.commands"><button>Invite</button></a>
+    </header>
+
+    <div class="mainText">
+        <h2>Thank You!</h2>
+    </div>
+
+    <div class="mainContext">
+        <h3>Thank you for adding BullyMe to your server. Now that it's there, you can do so many things with it!</h3>
+        <a href="/commands" class="bottom-shout2"><p>View BullyMe's Commands Here</p></a>
+    </div>
+
+    <script src="confetti.js"></script>
+    <script>
+        const start = () => {
+            setTimeout(function() {
+                confetti.start()
+            }, 1000); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+        };
+
+
+        const stop = () => {
+            setTimeout(function() {
+                confetti.stop()
+            }, 5000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+        };
+
+        start();
+        stop();
+    </script>
+</body>
+</html>
