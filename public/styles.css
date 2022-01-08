@@ -103,6 +103,9 @@ button:hover {
     border-radius: 1%;
     border: 5px solid #24252A;
     float: right;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
 
 .imgChat h3 {
@@ -122,6 +125,9 @@ button:hover {
     border-radius: 1%;
     border: 5px solid #24252A;
     float: right;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
 
 .imgPunch h3 {
@@ -133,19 +139,6 @@ button:hover {
 }
 
 
-.shout {
-    text-align: center;
-    font-size: 40px;
-    margin-top: 300px;
-    margin: 200px;
-}
-
-.inviteButton {
-    padding-top: 10px;
-}
-.inviteButton button {
-    font-size: 50px;
-}
 
 
 
@@ -198,4 +191,8 @@ button:hover {
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
+    .imgChat,
+    .imgPunch{
+        text-align: center;
+    }
 }
