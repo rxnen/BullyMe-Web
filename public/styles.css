@@ -94,3 +94,108 @@ button:hover {
     font-size: 20px;
     padding: 3%;
 }
+
+.imgChat {
+    padding-right: 5%;
+    padding-top: 200px;
+}
+.imgChat1 {
+    border-radius: 1%;
+    border: 5px solid #24252A;
+    float: right;
+}
+
+.imgChat h3 {
+    
+    font-size: 30px;
+    padding: 30px;
+    margin: 30px;
+    
+}
+
+.imgPunch {
+    padding-right: 5%;
+    padding-top: 200px;
+    padding-bottom: 350px;
+}
+.imgPunch1 {
+    border-radius: 1%;
+    border: 5px solid #24252A;
+    float: right;
+}
+
+.imgPunch h3 {
+    
+    font-size: 30px;
+    padding: 30px;
+    margin: 30px;
+    
+}
+
+
+.shout {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 300px;
+    margin: 200px;
+}
+
+.inviteButton {
+    padding-top: 10px;
+}
+.inviteButton button {
+    font-size: 50px;
+}
+
+
+
+
+
+.footer-distributed .footer-left img{
+	width: 5%;
+}
+
+
+/* Footer links */
+.footer-distributed {
+    background-color: #24252A;
+    color: #24252A;
+    
+}
+.footer-distributed .footer-links{
+	color:  white;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+    background-color: #24252A;
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  white;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+}
