@@ -246,3 +246,26 @@ button:hover {
     padding-top: 150px;
     font-size: 30px;
 }
+
+.bottom-shout {
+    color: #4a88ed;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.bottom-shout2 {
+    color: #24252A;
+    font-size: 30px;
+    text-align: center;
+    padding: 100px;
+    background-color: transparent;
+    text-decoration: none;
+    
+}
+
+.bottom-shout2:hover {
+    background-color: transparent;
+    text-decoration: underline;
+  }
