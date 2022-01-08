@@ -194,5 +194,12 @@ button:hover {
     .imgChat,
     .imgPunch{
         text-align: center;
+        padding-top: 100px;
     }
+    .imgPunch h3,
+    .imgChat h3{
+        padding-top: 350px;
+        padding-bottom: 0;
+    }
+
 }
