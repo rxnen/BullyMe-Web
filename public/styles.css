@@ -106,6 +106,7 @@ button:hover {
     max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
+    background-color: #24252A;
 }
 
 .imgChat h3 {
@@ -128,6 +129,7 @@ button:hover {
     max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
+    background-color: #24252A;
 }
 
 .imgPunch h3 {
