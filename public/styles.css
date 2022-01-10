@@ -18,6 +18,11 @@ li,a,button {
     text-decoration: none;
 }
 
+.privacylist {
+    text-align:center;
+    list-style-type: circle;
+}
+
 header {
     display: flex;
     justify-content: flex-end;
