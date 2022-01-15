@@ -16,6 +16,10 @@
       {
       "source": "/commands",
       "destination": "/commands.html"
+      },
+      {
+        "source": "/vote",
+        "destination": "/vote.html"
       }
     ]
   }
