@@ -20,6 +20,10 @@
       {
         "source": "/vote",
         "destination": "/vote.html"
+      },
+      {
+        "source": "/tos",
+        "destination": "/tos.html"
       }
     ]
   }
