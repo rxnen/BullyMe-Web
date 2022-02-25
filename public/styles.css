@@ -123,6 +123,28 @@ button:hover {
     
 }
 
+.imgP {
+    padding-right: 5%;
+    padding-top: 200px;
+}
+.imgP1 {
+    border-radius: 1%;
+    border: 5px solid #24252A;
+    float: right;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    background-color: #24252A;
+}
+
+.imgP h3 {
+    
+    font-size: 30px;
+    padding: 30px;
+    margin: 30px;
+    
+}
+
 .imgPunch {
     padding-right: 5%;
     padding-top: 200px;
@@ -209,12 +231,14 @@ button:hover {
 		margin-left: 0;
 	}
     .imgChat,
-    .imgPunch{
+    .imgPunch,
+    .imgP{
         text-align: center;
         padding-top: 100px;
     }
     .imgPunch h3,
-    .imgChat h3{
+    .imgChat h3,
+    .imgP h3{
         padding-top: 350px;
         padding-bottom: 0;
     }
