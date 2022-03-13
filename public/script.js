@@ -20,5 +20,5 @@ fetch('https://top.gg/api/bots/926262398854250526/stats',
     headers: {"Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjkyNjI2MjM5ODg1NDI1MDUyNiIsImJvdCI6dHJ1ZSwiaWF0IjoxNjQyMjE4NzQxfQ.9jqBAWfjkpodSPRdNvxRFk1WaVkkoX2W1B5RC8yq9Yw"}
 })
 .then(response => response.json()) 
-.then(json => animateValue("stats-info", 0, json['server_count'], 2000))
+.then(json => animateValue("stats-info", 0, json['server_count'], 2500))
 .catch(err => console.log(err));
