@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
-    background-color: #2C2F33;
     
     
 }
@@ -102,147 +101,6 @@ button:hover {
     padding-bottom: 100px;
 }
 
-
-
-.mainContext22 {
-    font-size: 20px;
-    color: #2C2F33;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 100px;
-}
-
-.info {
-    background-color: #2C2F33;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-.info h1 {
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    padding: 3%;
-}
-
-.invitelink {
-    text-align: center;
-    padding: 6px 12px;
-    border: .5px solid white;
-    border-radius: 8px;
-    transition-duration: 300ms;
-    background-color: #5865F2;
-    font-size: 23px;
-    margin: -5px 5px;
-}
-
-.invitelink:hover {
-    background-color: #424ed3;
-}
-
-#stats {
-    color: white;
-    text-align: center;
-    padding: 8px;
-    font-size: 28px;
-}
-
-#stats-info {
-    color: #4a88ed;
-    text-align: center;
-    padding: 8px;
-    font-size: 28px;
-    background-color: transparent;
-    margin: 0px -5px;
-}
-
-.images {
-    background-color: #2C2F33;
-}
-
-.imgChat {
-    padding-right: 5%;
-    padding-top: 200px;
-}
-
-.imgChat1 {
-    border-radius: 12px;
-    border: 3px solid #4a88ed;
-    float: right;
-    max-width: 100%;
-    height: auto;
-    width: auto\9; /* ie8 */
-    background-color: #2C2F33;
-}
-
-.imgChat h3 {
-    font-size: 30px;
-    padding: 30px;
-    margin: 30px;
-    color: white;
-}
-
-.imgP {
-    padding-right: 5%;
-    padding-top: 200px;
-}
-.imgP1 {
-    border-radius: 1%;
-    border: 3px solid #4a88ed;
-    float: right;
-    max-width: 100%;
-    height: auto;
-    width: auto; /* ie8 */
-    background-color: #2C2F33;
-}
-
-.imgP h3 {
-    
-    font-size: 30px;
-    padding: 30px;
-    margin: 30px;
-    color: white;
-    
-}
-
-.imgPunch {
-    padding-right: 5%;
-    padding-top: 200px;
-    padding-bottom: 350px;
-}
-.imgPunch1 {
-    border-radius: 12px;
-    border: 3px solid #4a88ed;
-    float: right;
-    max-width: 100%;
-    height: auto;
-    width: auto\9; /* ie8 */
-    background-color: #2C2F33;
-}
-
-.imgPunch h3 {
-    
-    font-size: 30px;
-    padding: 30px;
-    margin: 30px;
-    color: white;
-    
-}
-
-.vote-contain {
-    text-align: center;
-    font-size: 40px;
-    margin: 150px;
-}
-
-
-.vote-contain button{
-    background-color: #4a88ed;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-}
-
-
 .footer-distributed .footer-left img{
 	width: 5%;
 }
@@ -251,9 +109,11 @@ button:hover {
 /* Footer links */
 .footer-distributed {
     background-color: #2C2F33;
-    color: #24252A;
+    color: #2C2F33;
     margin-top: -30px;
+    margin-bottom: 0px;
     padding: 5px;
+    bottom: 0;
     
 }
 .footer-distributed .footer-links{
@@ -280,6 +140,11 @@ button:hover {
 }
 
 
+@media screen and (max-width: 775px) {
+    
+}
+
+
 
 @media (max-width: 880px) {
 
@@ -295,19 +160,6 @@ button:hover {
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
-    .imgChat,
-    .imgPunch,
-    .imgP{
-        text-align: center;
-        padding-top: 100px;
-    }
-    .imgPunch h3,
-    .imgChat h3,
-    .imgP h3{
-        padding-top: 350px;
-        padding-bottom: 0;
-    }
-
 }
 
 .styled-table {
@@ -332,7 +184,7 @@ button:hover {
     padding: 12px 15px;
 }
 .styled-table tbody tr {
-    border-bottom: thin solid #24252A;
+    border-bottom: thin solid #2C2F33;
 }
 
 .styled-table tbody tr:nth-of-type(even) {
@@ -340,17 +192,18 @@ button:hover {
 }
 
 .styled-table tbody tr:last-of-type {
-    border-bottom: 2px solid #24252A;
+    border-bottom: 2px solid #2C2F33;
 }
 .styled-table tbody tr.active-row {
     font-weight: bold;
-    color: #24252A;
+    color: #2C2F33;
 }
 
 .tableName {
     text-align: center;
     padding-top: 150px;
     font-size: 30px;
+    color: #2C2F33;
 }
 
 .bottom-shout {
@@ -362,7 +215,7 @@ button:hover {
 }
 
 .bottom-shout2 {
-    color: #24252A;
+    color: #2C2F33;
     font-size: 30px;
     text-align: center;
     padding: 100px;
