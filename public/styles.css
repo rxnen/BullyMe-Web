@@ -28,8 +28,8 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 15%;
-    background-color: #24252A;
+    padding: 20px 5%;
+    background-color: #2C2F33;
     
 
 }
@@ -43,7 +43,13 @@ header {
     cursor: pointer;
     margin-right: auto;
     float: left;
+    vertical-align:middle
 }
+
+.box {
+    display: flex;
+    align-items:center;
+ }
 
 .nav_links {
     list-style: none;
@@ -56,6 +62,7 @@ header {
 }
 .nav_links li a {
     transition: all 0.3s ease 0s;
+    font-size: 20px;
 }
 .nav_links li a:hover {
     color: #4a88ed;
@@ -71,7 +78,7 @@ button {
 }
 
 button:hover {
-    background-color: #4a88ed;
+    background-color: #3673d4;
 }
 
 .mainText {
@@ -86,11 +93,11 @@ button:hover {
     font-size: 20px;
     color: #24252A;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 150px;
+    padding-top: 20px;
+    padding-bottom: 100px;
 }
 .info {
-    background-color: #24252A;
+    background-color: #2C2F33;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -101,26 +108,44 @@ button:hover {
     padding: 3%;
 }
 
+#stats {
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-size: 28px;
+}
+
+#stats-info {
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-size: 50px;
+}
+
+.images {
+    background-color: #2C2F33;
+}
+
 .imgChat {
     padding-right: 5%;
     padding-top: 200px;
 }
+
 .imgChat1 {
-    border-radius: 1%;
-    border: 5px solid #24252A;
+    border-radius: 12px;
+    border: 3px solid #3673d4;
     float: right;
     max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
-    background-color: #24252A;
+    background-color: #2C2F33;
 }
 
 .imgChat h3 {
-    
     font-size: 30px;
     padding: 30px;
     margin: 30px;
-    
+    color: white;
 }
 
 .imgP {
@@ -129,12 +154,12 @@ button:hover {
 }
 .imgP1 {
     border-radius: 1%;
-    border: 5px solid #24252A;
+    border: 3px solid #3673d4;
     float: right;
     max-width: 100%;
     height: auto;
-    width: auto\9; /* ie8 */
-    background-color: #24252A;
+    width: auto; /* ie8 */
+    background-color: #2C2F33;
 }
 
 .imgP h3 {
@@ -142,6 +167,7 @@ button:hover {
     font-size: 30px;
     padding: 30px;
     margin: 30px;
+    color: white;
     
 }
 
@@ -151,13 +177,13 @@ button:hover {
     padding-bottom: 350px;
 }
 .imgPunch1 {
-    border-radius: 1%;
-    border: 5px solid #24252A;
+    border-radius: 12px;
+    border: 3px solid #3673d4;
     float: right;
     max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
-    background-color: #24252A;
+    background-color: #2C2F33;
 }
 
 .imgPunch h3 {
@@ -165,6 +191,7 @@ button:hover {
     font-size: 30px;
     padding: 30px;
     margin: 30px;
+    color: white;
     
 }
 
@@ -192,11 +219,15 @@ button:hover {
 .footer-distributed {
     background-color: #24252A;
     color: #24252A;
+    margin-top: -30px;
+    padding: 5px;
     
 }
 .footer-distributed .footer-links{
 	color:  white;
 	margin: 20px 0 12px;
+    text-align: center;
+    margin-top: -2px;
 }
 
 .footer-distributed .footer-links a{
@@ -212,6 +243,7 @@ button:hover {
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
+    text-align: center;
 }
 
 
