@@ -1,31 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#4a88ed">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>BullyMe - Vote</title>
-    <meta name="description" content="Vote for BullyMe!">
-    <link rel="icon" href="images/BullyMe_logo.png">
-    <title>BullyMe - A Discord Bot | Vote</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-    <header>
-        <a class="logolink" href="/">
-        <img class="logo" src="images/BullyMe_logo.png" width="60" height="60" alt="Logo">
-        </a>
-        <nav>
-            <ul class="nav_links">
-                <li><a href="/commands">Commands</a></li>
-                <li><a href="/vote">Vote</a></li>
-            </ul>
-        </nav>
-        <a class="cta" href="https://discord.com/oauth2/authorize?client_id=926262398854250526&permissions=2147765312&scope=bot%20applications.commands"><button>Invite</button></a>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#4a88ed">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>BullyMe - A Discord Bot</title>
+        <meta name="description" content="Bully your way to the top with this fun and intelligent chatbot.">
+        <link rel="icon" href="images/BullyMe_logo.png">
+        <title>BullyMe - An Intelligent and Hilarious Discord Chatbot</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="topnav.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+    <body>
+        <body>
+            <header>
+                <a class="logolink box" href="/">
+                <img class="logo" src="images/BullyMe_logo.png" width="60" height="60" alt="Logo">
+                <span style="margin-left: 15px; font-size: 20px;">BullyMe</span>
+                </a>
+                <nav>
+                    <ul class="nav_links">
+                        <li><a href="/commands">Commands</a></li>
+                        <li><a href="/premium">Premium</a></li>
+                        <li><a href="/vote">Vote</a></li>
+                    </ul>
+                </nav>
+                <a class="cta" href="https://discord.com/oauth2/authorize?client_id=926262398854250526&permissions=2147765312&response_type=code&scope=bot%20applications.commands"><button>Invite</button></a>
+                <a href="javascript:void(0);" class="overlayicon" onclick="openMobileNav()"">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div class="overlayNav" id="overlayNav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeMobileNav()">&times;</a>
+                    <div class="overlay-content">
+                      <a href="/commands">Commands</a>
+                      <a href="/premium">Premium</a>
+                      <a href="/vote">Vote</a>
+                      <a href="https://discord.com/oauth2/authorize?client_id=926262398854250526&permissions=2147765312&response_type=code&scope=bot%20applications.commands">Invite</a>
+                    </div>
+                  </div>
+            </header>
 
     <div class="vote-contain">
         <p>Vote on Top.gg to get awesome rewards!</p>
@@ -35,15 +52,16 @@
     <footer class="footer-distributed">
 
         <div class="footer-left">
-            <img src="images/BullyMe_logo.png" alt="Logo Image">
           <p class="footer-links">
             <a href="index.html">Home</a>
             |
-            <a href="https://discord.com/oauth2/authorize?client_id=926262398854250526&permissions=2147765312&response_type=code&scope=bot%20applications.commands">Invite me</a>
+            <a href="https://discord.com/oauth2/authorize?client_id=926262398854250526&permissions=2147765312&scope=bot%20applications.commands">Invite me</a>
             |
             <a href="https://discord.gg/HRd9pKc8Je">Join Our Discord</a>
             |
-            <a href="">Vote</a>
+            <a href="https://top.gg/bot/926262398854250526/vote">Vote</a>
+            |
+            <a href="/tos">Terms</a>
           </p>
       
           <p class="footer-company-name">© 2021 BullyMe</p>
