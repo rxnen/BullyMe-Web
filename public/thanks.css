@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    
+    
+}
+
+hr {
+    border: 5px solid white;
+}
+
+
+li,a,button {
+    
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.privacylist {
+    text-align:center;
+    list-style-type: circle;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: #2C2F33;
+    
+
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    
+}
+.logolink {
+    cursor: pointer;
+    margin-right: auto;
+    float: left;
+    vertical-align:middle
+}
+
+.box {
+    display: flex;
+    align-items:center;
+ }
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 25px;
+    
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+}
+.nav_links li a:hover {
+    color: #4a88ed;
+}
+button {
+    padding: 9px 25px;
+    background-color: #4a88ed;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: #3673d4;
+}
+
+.mainText {
+    font-size: 50px;
+    color: #4a88ed;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+.mainContext {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.footer-distributed .footer-left img{
+	width: 5%;
+}
+
+
+/* Footer links */
+.footer-distributed {
+    background-color: #2C2F33;
+    color: #2C2F33;
+    margin-top: -30px;
+    margin-bottom: 0px;
+    padding: 5px;
+    bottom: 0;
+    
+}
+.footer-distributed .footer-links{
+	color:  white;
+	margin: 20px 0 12px;
+    text-align: center;
+    margin-top: -2px;
+}
+
+.footer-distributed .footer-links a{
+    background-color: #2C2F33;
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  white;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 775px) {
+    
+}
+
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+}
+
+.bottom-shout {
+    color: #4a88ed;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.bottom-shout2 {
+    color: #2C2F33;
+    font-size: 30px;
+    text-align: center;
+    padding: 100px;
+    background-color: transparent;
+    text-decoration: none;
+    
+}
+
+.bottom-shout2:hover {
+    background-color: transparent;
+    text-decoration: underline;
+  }
