@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.overlayicon {
+    margin: 13px;
+    color: #4a88ed;
+    display: none;
+}
+
+/* Overlay Stuff */
+
+.overlayNav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #2C2F33;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    text-align: center;
+    margin-top: 25px;
+    position: relative;
+    top: 25%;
+    width: 100%
+}
+
+.overlayNav a {
+    padding: 6px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #4a88ed;
+    transition: 0.4s;
+    display: block;
+    font-family: "Montserrat", sans-serif;
+}
+
+.overlayNav a:hover, .overlayNav a:focus {
+    text-decoration: underline;
+}
+
+.closebtn {
+    position: absolute;
+    top: 6px;
+    right: 26px;
+    font-size: 80px;
+  }
+
+/* Media Screen */
+
+@media screen and (max-width: 770px) {
+    .nav_links {
+        display: none;
+    }
+    .overlayicon {
+        float: right;
+        display: block;
+    }
+  }

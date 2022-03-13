@@ -11,6 +11,7 @@
     <link rel="icon" href="images/BullyMe_logo.png">
     <title>BullyMe - A Discord Bot | Commands</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="topnav.css">
 </head>
 
 <body>
@@ -25,6 +26,15 @@
             </ul>
         </nav>
         <a class="cta" href="https://discord.com/oauth2/authorize?client_id=926262398854250526&permissions=2147765312&scope=bot%20applications.commands"><button>Invite</button></a>
+        <div class="overlayNav" id="overlayNav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeMobileNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="/commands">Commands</a>
+              <a href="/premium">Premium</a>
+              <a href="/vote">Vote</a>
+              <a href="https://discord.com/oauth2/authorize?client_id=926262398854250526&permissions=2147765312&response_type=code&scope=bot%20applications.commands">Invite</a>
+            </div>
+          </div>
     </header>
 
 
@@ -168,6 +178,6 @@
       
     </footer>
 
-
+    <script src="topnav.js"></script>
 </body>
 </html>
