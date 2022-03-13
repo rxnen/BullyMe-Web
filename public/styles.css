@@ -5,8 +5,12 @@
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
+    background-color: #2C2F33;
     
-    
+}
+
+hr {
+    border: 5px solid white;
 }
 
 
@@ -91,7 +95,7 @@ button:hover {
 
 .mainContext {
     font-size: 20px;
-    color: #24252A;
+    color: white;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 100px;
@@ -108,6 +112,21 @@ button:hover {
     padding: 3%;
 }
 
+.invitelink {
+    text-align: center;
+    padding: 6px 12px;
+    border: .5px solid white;
+    border-radius: 8px;
+    transition-duration: 300ms;
+    background-color: #5865F2;
+    font-size: 23px;
+    margin: -5px 5px;
+}
+
+.invitelink:hover {
+    background-color: #424ed3;
+}
+
 #stats {
     color: white;
     text-align: center;
@@ -119,7 +138,9 @@ button:hover {
     color: white;
     text-align: center;
     padding: 8px;
-    font-size: 50px;
+    font-size: 28px;
+    background-color: transparent;
+    margin: 0px -5px;
 }
 
 .images {
@@ -217,7 +238,7 @@ button:hover {
 
 /* Footer links */
 .footer-distributed {
-    background-color: #24252A;
+    background-color: #2C2F33;
     color: #24252A;
     margin-top: -30px;
     padding: 5px;
@@ -231,7 +252,7 @@ button:hover {
 }
 
 .footer-distributed .footer-links a{
-    background-color: #24252A;
+    background-color: #2C2F33;
 	display:inline-block;
 	line-height: 1.8;
 	text-decoration: none;
