@@ -14,6 +14,12 @@ function animateValue(id, start, end, duration) {
     }, stepTime);
 }
 
+function postStats(messages, users, channels) {
+    document.getElementById("messages_sent").innerHTML = messages.toLocaleString('en-US');
+    document.getElementById("active_users").innerHTML = users.toLocaleString('en-US');
+    document.getElementById('bullyme_channels').innerHTML = channels.toLocaleString('en-US');
+}
+
 fetch('https://top.gg/api/bots/926262398854250526/stats',
 {
     method: "GET",
@@ -22,3 +28,13 @@ fetch('https://top.gg/api/bots/926262398854250526/stats',
 .then(response => response.json()) 
 .then(json => animateValue("stats-info", 0, json['server_count'], 2500))
 .catch(err => console.log(err));
+
+var requestOptions = {
+    method: 'GET',
+    redirect: 'follow'
+  };
+  
+  fetch("https://bullymeapi.pythonanywhere.com", requestOptions)
+    .then(response => response.json())
+    .then(json => postStats(json["messages_sent"], json['active_users'], json['bullyme_channels']))
+    .catch(error => console.log('error', error));
