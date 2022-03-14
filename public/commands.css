@@ -140,8 +140,13 @@ button:hover {
 }
 
 
-@media screen and (max-width: 775px) {
-    
+@media screen and (max-width: 500px) {
+    .mainText {
+        font-size: 35px;
+    }
+    .styled-table {
+        font-size: 0.5em;
+    }
 }
 
 
@@ -169,7 +174,7 @@ button:hover {
     border-collapse: collapse;
     font-size: 0.9em;
     font-family: sans-serif;
-    min-width: 400px;
+    min-width: 300px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
