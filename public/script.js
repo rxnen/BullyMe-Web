@@ -7,7 +7,7 @@ function animateValue(id, start, end, duration) {
     var obj = document.getElementById(id);
     var timer = setInterval(function() {
         current += increment;
-        obj.innerHTML = current;
+        obj.innerHTML = current.toLocaleString('en-US');
         if (current == end) {
             clearInterval(timer);
         }
