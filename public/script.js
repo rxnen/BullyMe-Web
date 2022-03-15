@@ -20,13 +20,13 @@ function postStats(messages, users, channels) {
     document.getElementById('bullyme_channels').innerHTML = channels.toLocaleString('en-US');
 }
 
-fetch('https://top.gg/api/bots/926262398854250526/stats',
+fetch('https://bullymeapi.pythonanywhere.com',
 {
     method: "GET",
-    headers: {"Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjkyNjI2MjM5ODg1NDI1MDUyNiIsImJvdCI6dHJ1ZSwiaWF0IjoxNjQyMjE4NzQxfQ.9jqBAWfjkpodSPRdNvxRFk1WaVkkoX2W1B5RC8yq9Yw"}
+    redirect: 'follow'
 })
 .then(response => response.json()) 
-.then(json => animateValue("stats-info", 0, json['server_count'], 2500))
+.then(json => animateValue("stats-info", 0, json['bullyme_servers'], 2000))
 .catch(err => console.log(err));
 
 var requestOptions = {
