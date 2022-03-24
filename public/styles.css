@@ -220,7 +220,7 @@ button:hover {
     flex: 1 0 25%;
     background-color: #2C2F33;
     transition: 0.15s;
-    border: 1.5px solid white;
+    border: 1px solid white;
     box-shadow: 0 0 10px white;
   }
 
