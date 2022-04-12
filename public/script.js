@@ -1,17 +1,5 @@
-function animateValue(id, start, end, duration) {
-    if (start === end) return;
-    var range = end - start;
-    var current = start;
-    var increment = end > start? 1 : -1;
-    var stepTime = Math.abs(Math.floor(duration / range));
-    var obj = document.getElementById(id);
-    var timer = setInterval(function() {
-        current += increment;
-        obj.innerHTML = current.toLocaleString('en-US');
-        if (current == end) {
-            clearInterval(timer);
-        }
-    }, stepTime);
+function animateValue(value) {
+    document.getElementById('stats-info').innerHTML = value.toLocaleString('en-US');
 }
 
 function postStats(messages, users, channels) {
@@ -26,7 +14,7 @@ fetch('https://bullymeapi.pythonanywhere.com',
     redirect: 'follow'
 })
 .then(response => response.json()) 
-.then(json => animateValue("stats-info", 0, json['bullyme_servers'], 2000))
+.then(json => animateValue(json['bullyme_servers']))
 .catch(err => console.log(err));
 
 var requestOptions = {
